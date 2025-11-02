@@ -74,7 +74,7 @@ const Contact = () => {
                         margin: '0', 
                         color: 'rgba(255, 255, 255, 0.8)',
                         fontSize: '0.95rem'
-                      }}>your.valiyakathshamnaz@gmail.com</p>
+                      }}>valiyakathshamnaz@gmail.com</p>
                     </div>
                   </div>
                 </div>
@@ -143,7 +143,7 @@ const Contact = () => {
                     backdropFilter: 'blur(10px)',
                     transition: 'all 0.3s ease'
                   }}>
-                    <i className="fas fa-linkedin" style={{ 
+                    <i className="fab fa-linkedin me-2" style={{ 
                       fontSize: '1.5rem', 
                       color: '#7877c6',
                       marginRight: '1rem' 
@@ -158,7 +158,7 @@ const Contact = () => {
                         margin: '0', 
                         color: 'rgba(255, 255, 255, 0.8)',
                         fontSize: '0.95rem'
-                      }}>https://www.linkedin.com/in/shamnaz-vh-223b94362/</p>
+                      }}>https://www.linkedin.com/in/shamnaz-vh</p>
                     </div>
                   </div>
                 </div>

@@ -59,6 +59,17 @@ const About = () => {
                     <div className="stat-label">Classification Accuracy</div>
                   </div>
                 </div>
+                <div className="col-6 mb-4">
+                  <div className="stat-card text-center">
+                    <div className="stat-number">4+</div>
+                    <div className="stat-label">Mini Projects</div>
+                  </div>
+                </div><div className="col-6 mb-4">
+                  <div className="stat-card text-center">
+                    <div className="stat-number">5+</div>
+                    <div className="stat-label">Tech Tools Mastered</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

@@ -24,7 +24,7 @@ const Hero = () => {
                   fontWeight: '500'
                 }}>
                   <i className="fas fa-code me-2"></i>
-                  Data Science Professional
+                 Aspiring Data Science Professional
                 </span>
               </div>
               <h1 className="hero-title mb-3">
@@ -36,12 +36,14 @@ const Hero = () => {
                 }}>Shamnaz VH</span>
               </h1>
               <h2 className="hero-subtitle mb-4">
-                <span className="typed-text">Data Analyst & Data Scientist</span>
+                <span className="typed-text">  Data Analyst Intern / Data Science Trainee</span>
               </h2>
               <p className="hero-description mb-4">
-                Passionate about transforming data into actionable insights through 
-                machine learning and advanced analytics. Specializing in predictive 
-                modeling, deep learning, and business intelligence solutions.
+              I’m a fresher passionate about exploring data-driven insights and
+                building analytical solutions. With a growing foundation in Python,
+                SQL, Machine Learning, and Visualization, I aim to evolve from a
+                Data Analyst intern into a skilled Data Scientist capable of driving
+                business decisions through AI and predictive modeling.
               </p>
               
 
