@@ -100,73 +100,7 @@ const Skills = () => {
             </div>
           ))}
         </div>
-        
-        <div className="row mt-5">
-          <div className="col-lg-12" data-aos="fade-up">
-            <div className="skills-summary">
-              <h4 className="text-center mb-4">Skills Proficiency Overview</h4>
-              <div className="row">
-                <div className="col-lg-6 mb-4">
-                  <div className="proficiency-section">
-                    <h5 className="text-primary mb-3">
-                      <i className="fas fa-laptop-code me-2"></i>
-                      Programming Languages
-                    </h5>
-                    <div className="skill-bar-container">
-                      <div className="skill-bar-item">
-                        <div className="d-flex justify-content-between">
-                          <span>Python</span>
-                          <span>60%</span>
-                        </div>
-                        <div className="progress">
-                          <div className="progress-bar" style={{width: '60%'}}></div>
-                        </div>
-                      </div>
-                      <div className="skill-bar-item">
-                        <div className="d-flex justify-content-between">
-                          <span>SQL</span>
-                          <span>50%</span>
-                        </div>
-                        <div className="progress">
-                          <div className="progress-bar" style={{width: '50%'}}></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6 mb-4">
-                  <div className="proficiency-section">
-                    <h5 className="text-primary mb-3">
-                      <i className="fas fa-brain me-2"></i>
-                      Machine Learning
-                    </h5>
-                    <div className="skill-bar-container">
-                      <div className="skill-bar-item">
-                        <div className="d-flex justify-content-between">
-                          <span>Scikit-learn</span>
-                          <span>30%</span>
-                        </div>
-                        <div className="progress">
-                          <div className="progress-bar" style={{width: '30%'}}></div>
-                        </div>
-                      </div>
-                      <div className="skill-bar-item">
-                        <div className="d-flex justify-content-between">
-                          <span>TensorFlow</span>
-                          <span>30%</span>
-                        </div>
-                        <div className="progress">
-                          <div className="progress-bar" style={{width: '30%'}}></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
+       
       </div>
     </section>
   );
