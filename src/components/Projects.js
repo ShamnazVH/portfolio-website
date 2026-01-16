@@ -3,6 +3,29 @@ import React from "react";
 const Projects = () => {
   const projects = [
     {
+      title: "Fruit Category & Quality Classification | CNN Deep Learning & Computer Vision",
+      description:
+        "Developed an end-to-end deep learning system using Convolutional Neural Networks (CNN) to automate fruit identification and freshness assessment (Fresh vs. Rotten) leveraging VGG16 transfer learning and OpenCV.",
+      achievements: [
+        "High Accuracy: Leveraged pre-trained VGG16 weights for precision classification",
+        "Automated Quality Control: Reduced manual inspection via real-time status grading",
+        "Optimized Inference: Implemented HDF5 (.h5) and Pickle for low-latency deployment",
+        "Mobile-Ready UI: Designed a responsive Bootstrap dashboard for field use",
+      ],
+      technologies: [
+        "Python",
+        "TensorFlow/Keras",
+        "CNN",
+        "VGG16",
+        "OpenCV",
+        "Flask",
+        "NumPy",
+        "Bootstrap",
+      ],
+      impact: "AgTech & Quality Control",
+      githubLink: "https://github.com/ShamnazVH/ML-Driven-Fruit-Freshness-Analysis-system-using-CNN",
+    },
+    {
       title:
         "Customer Churn Prediction | Ensemble ML Models & Business Impact Analysis",
       description:
@@ -23,48 +46,6 @@ const Projects = () => {
       ],
       impact: "High Business Impact",
       githubLink: "https://github.com/yourusername/customer-churn-prediction",
-    },
-    {
-      title:
-        "Machine Learning Healthcare Prediction System | KNN Classification & Clinical Decision Support",
-      description:
-        "Developed a diabetes prediction system using a KNN classifier with 80%+ accuracy, featuring data preprocessing, feature scaling, and Pickle serialization for real-time clinical applications.",
-      achievements: [
-        "80%+ classification accuracy",
-        "Real-time clinical decision support",
-        "Optimized for healthcare applications",
-      ],
-      technologies: [
-        "Python",
-        "KNN",
-        "Scikit-learn",
-        "Data Preprocessing",
-        "Feature Scaling",
-        "Pickle",
-      ],
-      impact: "Healthcare Innovation",
-      githubLink: "https://github.com/yourusername/healthcare-prediction",
-    },
-    {
-      title:
-        "Financial Data Analytics: Cryptocurrency Trading Behavior Analysis with Statistical Modeling",
-      description:
-        "Analyzed 10,000+ trades using ANOVA and Chi-Squared hypothesis testing (p<0.001) to uncover sentiment-driven trading patterns, improving strategy profitability by 15–30%.",
-      achievements: [
-        "Analyzed 10,000+ trading records",
-        "Statistical significance (p<0.001)",
-        "15–30% profitability improvement",
-      ],
-      technologies: [
-        "Python",
-        "Statistical Analysis",
-        "ANOVA",
-        "Chi-Squared Testing",
-        "Data Visualization",
-        "Pandas",
-      ],
-      impact: "Financial Analytics",
-      githubLink: "https://github.com/yourusername/crypto-trading-analysis",
     },
     {
       title:
@@ -92,7 +73,6 @@ const Projects = () => {
   return (
     <section id="projects" className="section section-middle">
       <div className="container">
-        {/* Section Header */}
         <div className="row text-center mb-5">
           <h2 className="section-title" data-aos="fade-up">
             Featured Projects
@@ -108,7 +88,6 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* Projects Grid */}
         <div className="row justify-content-center">
           {projects.map((project, index) => (
             <div
@@ -174,11 +153,13 @@ const Projects = () => {
                         className={`badge ${
                           project.impact === "High Business Impact"
                             ? "bg-success"
-                            : project.impact === "Healthcare Innovation"
+                          : project.impact === "Healthcare Innovation"
                             ? "bg-info"
-                            : project.impact === "Financial Analytics"
+                          : project.impact === "AgTech & Quality Control"
+                            ? "bg-primary" // Use primary (blue) or custom color
+                          : project.impact === "Financial Analytics"
                             ? "bg-warning"
-                            : "bg-primary"
+                          : "bg-secondary"
                         }`}
                       >
                         <i className="fas fa-star me-1"></i> {project.impact}
@@ -192,7 +173,6 @@ const Projects = () => {
         </div>
       </div>
 
-      {/* Styles */}
       <style jsx>{`
         .card-header {
           background: linear-gradient(135deg, #7877c6 0%, #4a4a4a 100%);
@@ -264,7 +244,6 @@ const Projects = () => {
 };
 
 export default Projects;
-
 // import React from 'react';
 
 // const Projects = () => {
