@@ -2,32 +2,31 @@ import React from "react";
 
 const Projects = () => {
   const projects = [
-    {
-      title: "Fruit Category & Quality Classification | CNN Deep Learning & Computer Vision",
-      description:
-        "Developed an end-to-end deep learning system using Convolutional Neural Networks (CNN) to automate fruit identification and freshness assessment (Fresh vs. Rotten) leveraging VGG16 transfer learning and OpenCV.",
-      achievements: [
-        "High Accuracy: Leveraged pre-trained VGG16 weights for precision classification",
-        "Automated Quality Control: Reduced manual inspection via real-time status grading",
-        "Optimized Inference: Implemented HDF5 (.h5) and Pickle for low-latency deployment",
-        "Mobile-Ready UI: Designed a responsive Bootstrap dashboard for field use",
-      ],
-      technologies: [
-        "Python",
-        "TensorFlow/Keras",
-        "CNN",
-        "VGG16",
-        "OpenCV",
-        "Flask",
-        "NumPy",
-        "Bootstrap",
-      ],
-      impact: "AgTech & Quality Control",
-      githubLink: "https://github.com/ShamnazVH/ML-Driven-Fruit-Freshness-Analysis-system-using-CNN",
-    },
+      {
+  title: "Fruit Category & Quality Classification | CNN Deep Learning & Computer Vision",
+  description: "Developed an end-to-end computer vision system to automate fruit identification and freshness grading. Replaced subjective manual inspection with a scalable, real-time AI solution using VGG16 and OpenCV, deployed via a Flask REST API.",
+  achievements: [
+    "Achieved 90% classification accuracy on 8,000+ images",
+    "Reduced manual quality inspection effort by ~25%",
+    "Estimated 15–20% reduction in post-harvest quality loss",
+    "Full ML pipeline with .h5 serialization and Bootstrap UI"
+  ],
+  technologies: [
+    "Python", 
+    "TensorFlow",
+    "Keras",
+    "OpenCV",
+    "Flask",
+    "MySQL",
+    "VGG16",
+    "Bootstrap"
+  ],
+  impact: "AgTech & Quality Control",
+  githubLink: "https://github.com/ShamnazVH/ML-Driven-Fruit-Freshness-Analysis-system-using-CNN"
+},
     {
       title:
-        "Customer Churn Prediction | Ensemble ML Models & Business Impact Analysis",
+        "Telecom-Customer-Churn-Prediction | Ensemble ML Models & Business Impact Analysis",
       description:
         "Engineered ensemble system (Gradient Boosting, Random Forest) using SMOTE and GridSearchCV on 7K+ telecom records featuring data preprocessing, feature scaling, and Pickle serialization for real-time clinical applications.",
       achievements: [
@@ -45,8 +44,30 @@ const Projects = () => {
         "Pickle",
       ],
       impact: "High Business Impact",
-      githubLink: "https://github.com/yourusername/customer-churn-prediction",
+      githubLink: "https://github.com/ShamnazVH/Telecom-Customer-Churn-Prediction",
     },
+    {
+  title: "Credit Risk Delinquency Prediction | ML-Driven Financial Risk Analytics",
+  description: "Engineered an end-to-end delinquency prediction system using ensemble learning (XGBoost, Neural Networks) to identify high-risk default patterns. Features advanced feature engineering of payment behaviors and real-time deployment via Flask for data-driven credit decisioning.",
+  achievements: [
+    "Achieved strong ROC-AUC performance across multiple models",
+    "Identified key risk drivers: credit utilization & income risk",
+    "Automated early risk detection for financial portfolios",
+    "Deployed production-ready API for real-time risk scoring"
+  ],
+  technologies: [
+    "Python",
+    "XGBoost",
+    "Scikit-learn",
+    "Pandas",
+    "Neural Networks",
+    "Flask",
+    "Pickle",
+    "Ensemble Learning"
+  ],
+  impact: "Financial Risk Analytics",
+  githubLink: "https://github.com/ShamnazVH/Credit-Risk-Delinquency-prediction-System"
+},
     {
       title:
         "NLP Email Classification System | Spam Detection with Naive Bayes & Model Deployment",
@@ -66,7 +87,7 @@ const Projects = () => {
         "Pickle",
       ],
       impact: "Efficiency Optimization",
-      githubLink: "https://github.com/yourusername/email-spam-classifier",
+      githubLink: "https://github.com/ShamnazVH/Spam-Email-Detector",
     },
   ];
 
